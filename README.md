@@ -36,6 +36,7 @@ here地图的演示版本
 - /ios/Runner/Info.plist中添加如下配置
   
 ``` sh
+<key>HERECredentials</key>
 <dict>
 <key>AccessKeyId</key>
     <string>YOUR_ACCESS_KEY_ID</string>
@@ -103,4 +104,18 @@ flutter build apk
   
 ``` sh
 flutter build ios
+```
+
+## 内部测试版
+
+- android 1.0版
+  
+``` sh
+http://fir.transcodegroup.com/zr94
+```
+
+- iOS 1.0版
+  
+``` sh
+http://fir.transcodegroup.com/7vjp
 ```
