@@ -50,7 +50,11 @@ dev_dependencies:
   # Install the package by executing 'flutter packages get'.
   # Note that the path must point to your downloaded HERE SDK plugin folder.
   here_sdk:
-    path: plugins/here_sdk
+    # path: plugins/here_sdk
+    git:
+      url: git@github.com:limingnie/here_sdk.git
+      ref: main
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
